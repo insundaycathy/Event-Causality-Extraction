@@ -32,21 +32,20 @@ The COPES dataset can be downloaded from: https://github.com/HKUST-KnowComp/COLA
 The GLUCOSE dataset can be downloaded from: https://github.com/ElementalCognition/glucose
 
 ### Downstream Tasks:
-#### SyMoN (for story video-text alignment):
-The SyMoN dataset can be downloaded from: https://github.com/insundaycathy/SYMON
+To be filled
 
 
 ## Run event causality extraction on COPES:
-The code is in COPE/event_causality_extraction_cope.py
+The code is in COPES/event_causality_extraction_copes.py
 `
-event_causality_extraction_cope.py --save_dict {output file} --model {model_name}
+event_causality_extraction_copes.py --save_dict {output file} --model {model_name} --input_data {path to COPES.json} --data_split {path to data split} --prompt {path to prompt}
 `
 
 ## Run event causality extraction on GLUCOSE
 The code is in GLUCOSE/event_causality_extraction_glucose.py
 `
-event_causality_extraction_glucose.py --save_dict {output file}
+event_causality_extraction_glucose.py --save_dict {output file} --input_data {path to COPES.json} --prompt {path to prompt}
 `
 
 ## Prompt
-The prompt for event causality extraction is stored in prompt_event_graph.txt
+The prompt for event causality extraction is stored in prompt.txt
