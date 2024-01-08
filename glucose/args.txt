@@ -1,0 +1,6 @@
+{
+  "save_dict": "output.csv",
+  "model": "gpt-3.5-turbo",
+  "input_data": "test_set_no_answers.csv",
+  "prompt": "event_graph.txt"
+}

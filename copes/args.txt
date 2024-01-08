@@ -1,0 +1,7 @@
+{
+  "save_dict": "output.pkl",
+  "model": "gpt-3.5-turbo",
+  "input_data": "COPES.json",
+  "data_split": "split_idx_42.json",
+  "prompt": "event_graph.txt"
+}
