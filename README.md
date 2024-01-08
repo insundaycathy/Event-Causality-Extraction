@@ -21,9 +21,9 @@ rouge                     1.0.1
 ```
 
 You can install all requirements with the command:
-`
+```
 pip install -r requirements.txt
-`
+```
 ## Datasets
 ### Event Causality Extraction
 #### COPES
@@ -37,15 +37,15 @@ To be filled
 
 ## Run event causality extraction on COPES:
 The code is in COPES/event_causality_extraction_copes.py
-`
+```
 event_causality_extraction_copes.py --save_dict {output file} --model {model_name} --input_data {path to COPES.json} --data_split {path to data split} --prompt {path to prompt}
-`
+```
 
 ## Run event causality extraction on GLUCOSE
 The code is in GLUCOSE/event_causality_extraction_glucose.py
-`
+```
 event_causality_extraction_glucose.py --save_dict {output file} --input_data {path to COPES.json} --prompt {path to prompt}
-`
+```
 
 ## Prompt
 The prompt for event causality extraction is stored in prompt.txt
