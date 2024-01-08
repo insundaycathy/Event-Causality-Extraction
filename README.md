@@ -6,7 +6,7 @@ The paper proposes a prompt for extracting event causality from free form story 
 Python version is 3.9
 
 requirements:
-' numpy                     1.23.5
+` numpy                     1.23.5
 openai                    0.27.0
 openssl                   1.1.1w
 pandas                    2.0.2
@@ -16,7 +16,7 @@ transformers              4.28.0
 sacrebleu                 2.3.1                    
 scikit-learn              1.2.2
 rouge                     1.0.1
-'
+`
 
 You can install all requirements with the command:
 '
