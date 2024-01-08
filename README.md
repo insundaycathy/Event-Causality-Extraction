@@ -44,7 +44,7 @@ event_causality_extraction_copes.py --save_dict {output file} --model {model_nam
 ## Run event causality extraction on GLUCOSE
 The code is in GLUCOSE/event_causality_extraction_glucose.py
 ```
-event_causality_extraction_glucose.py --save_dict {output file} --input_data {path to COPES.json} --prompt {path to prompt}
+event_causality_extraction_glucose.py --save_dict {output file} --input_data {path to input data file} --prompt {path to prompt}
 ```
 
 ## Prompt
