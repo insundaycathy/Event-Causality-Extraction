@@ -36,17 +36,17 @@ The GLUCOSE dataset can be downloaded from: https://github.com/ElementalCognitio
 The SyMoN dataset can be downloaded from: https://github.com/insundaycathy/SYMON
 
 
-### Run event causality extraction on COPES:
+## Run event causality extraction on COPES:
 The code is in COPE/event_causality_extraction_cope.py
 `
 event_causality_extraction_cope.py --save_dict {output file} --model {model_name}
 `
 
-### Run event causality extraction on GLUCOSE
+## Run event causality extraction on GLUCOSE
 The code is in GLUCOSE/event_causality_extraction_glucose.py
 `
 event_causality_extraction_glucose.py --save_dict {output file}
 `
 
-### Prompt
+## Prompt
 The prompt for event causality extraction is stored in prompt_event_graph.txt
