@@ -1,6 +1,6 @@
 # Event-Causality-Extraction
 ## Description:
-This repository contains the implementation for the paper: Event Causality Is Key to Computational Story Understanding (https://arxiv.org/abs/2311.09648)
+This repository contains the implementation for the paper: ** Event Causality Is Key to Computational Story Understanding ** (https://arxiv.org/abs/2311.09648)
 
 The paper proposes a prompt for extracting event causality from free form story text with LLMs, and show that the extracted event causality improves performence on downstram tasks.
 ## Requirement:
