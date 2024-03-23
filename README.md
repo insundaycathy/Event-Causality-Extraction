@@ -1,5 +1,6 @@
 # Event-Causality-Extraction
 ## Description:
+The code and prompts from the paper **Event Causality Is Key to Computational Story Understanding**
 The paper proposes a prompt for extracting event causality from free form story text with LLMs, and show that the extracted event causality improves performence on downstram tasks.
 ## Requirement:
 Python version is 3.9
