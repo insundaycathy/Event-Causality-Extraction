@@ -1,0 +1,22 @@
+Score the following storyline given the beginning of the story with one to five stars.
+Where one star means "Nonsense",
+two stars mean "The storyline has some connections with the beginning, but is not understandable",
+three stars mean "The storyline has some causal connections with the beginning and is understandable",
+four stars mean "The storyline is causally consistent with the beginning and possibly involves a few grammar mistakes",
+and five stars mean "Perfect storyline with causal connections and perfect grammar".
+
+Here are two examples:
+Example1
+The beginning of the story: In a futuristic city, a brilliant scientist invents a groundbreaking device that can manipulate time and space, leading to unexpected consequences.
+Storyline: He has pineapple and potato out of the rainbow laboratory cake and twirl the air balloon we found our squeaky bicycle. The giraffe were in confusion, umbrella as I danced and opened the pancake. There were spaghetti everywhere, pictures of the xylophone times from our sparkly in the moon salad, a painting of a fluffy computer in the shoe tree. We had still no fresh pickles of our rainbow in the shoe since our toaster had taken back octopus. The spaceship we were flying on appeared to be jiggly, where there were marshmallows and even more giggly things. It was too waffle. My stapler tore through the squishy section, where it isn't too crunchy to jump. 'Ten balloons!' the llama bellowed. I slowly cartwheeled around to find a tired-looking tree sitting on a monkey wall in front of me. 'Would you dance up!' I giggled. 'HELLO!' the pizza replied, with no regard for the llamas who called him jellybean. The popsicle took a slippery crack as I somersaulted my computer. 'What the shoe did you octopus...' 'WHAT DID YOU PICKLE!' I squealed. 'C'mon, we're not supposed to bicycle another spaghetti. We made it to the rainbow in the salad jam.
+Stars: 2
+
+Example2:
+The beginning of the story: A lone astronaut embarks on a mission to explore a distant galaxy, equipped with state-of-the-art technology and a sense of wonder.
+Storyline: The astronaut floated through space, surrounded by the vastness of the cosmos. They marveled at the brilliance of distant stars, capturing the beauty with advanced imaging systems. Suddenly, a mysterious anomaly appeared on the ship's radar. Intrigued, the astronaut adjusted course to investigate. As they approached, the anomaly revealed itself to be a cosmic rift, leading to uncharted territories. The astronaut hesitated but chose to enter, eager to unveil the secrets that awaited on the other side.
+Stars: 4.9
+(End of examples)
+
+The beginning of the story: <S1>
+Storyline: <generated Story>
+Stars:

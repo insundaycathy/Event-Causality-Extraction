@@ -1,0 +1,10 @@
+Score the following storyline given the beginning of the story with one to five stars.
+Where one star means "Nonsense",
+two stars mean "The storyline has some causal connections with the beginning, but is not understandable",
+three stars mean "The storyline has some causal connections with the beginning and is understandable",
+four stars mean "The storyline is causally consistent with the beginning and possibly involves a few grammar mistakes",
+and five stars mean "Perfect storyline with causal connections and perfect grammar".
+
+The beginning of the story: <S1>
+Storyline: <generated Story>
+Stars:

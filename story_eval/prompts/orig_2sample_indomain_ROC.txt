@@ -1,0 +1,22 @@
+Score the following storyline given the beginning of the story with one to five stars.
+Where one star means "Nonsense",
+two stars mean "The storyline has some connections with the beginning, but is not understandable",
+three stars mean "The storyline has some connections with the beginning and is understandable",
+four stars mean "The storyline is consistent with the beginning and possibly involves a few grammar mistakes",
+and five stars mean "Perfect storyline and grammar".
+
+Here are two examples:
+Example1:
+The beginning of the story: A cat crosses my path on the street.
+Storyline: Intrigued, I decide to buy a cup of coffee. While sipping it, I notice a peculiar cloud in the sky. Suddenly, my phone rings, and it's a wrong number. The day continues without any apparent connection between events.
+Stars: 2
+
+Example2:
+The beginning of the story: I woke up today feeling bored.
+Storyline: I decided to do some chores around the house. But I quickly got tired. Later, I ate a sandwich and watched TV. Nothing interesting happened today.
+Stars: 4.5
+(End of examples)
+
+The beginning of the story: <S1>
+Storyline: <generated Story>
+Stars:

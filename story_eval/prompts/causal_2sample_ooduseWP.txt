@@ -1,0 +1,22 @@
+Score the following storyline given the beginning of the story with one to five stars.
+Where one star means "Nonsense",
+two stars mean "The storyline has some connections with the beginning, but is not understandable",
+three stars mean "The storyline has some causal connections with the beginning and is understandable",
+four stars mean "The storyline is causally consistent with the beginning and possibly involves a few grammar mistakes",
+and five stars mean "Perfect storyline with causal connections and perfect grammar".
+
+Here are two examples:
+Example1:
+The beginning of the story: In a world where people are paired to their genetic `` soulmate '' , you 're matched with two people . A set of Twins .
+Storyline: It was at my house that I first noticed the pair . Not quite the kind of 2 in a year where they 're a 3 , but rather a 4 . All nearly identical . Exactly the same person , though only for 10 yards in length . I 've seen them in movies . Each time they start matching , their soul mate gets as happy as they can be , and live forever . They never marry . Yet when I became my parents , I was relieved to see them . . . Close as a tree , I felt as if this had been a sign . Sometimes we let go of our spouses , because we felt that our bodies just were n't as close as we hoped . The days leading up to the birth of our babies were full of double boring , and running the length of our lives was like a double-edged sword . They 're like super duper independent of each other , and could either grab a means to a good lover , or they use mirrors in the space of two millenniums . And it 's not like they were too busy , otherwise their love would never exist . It was a comfort to be treated as some princess , but a sense of calm in a piece of chaos . But the twin just , they both loved the other too .
+Stars:2.4
+
+Example2:
+The beginning of the story: A single pokemon appears in the real world .
+Storyline: It 's as if everyone has found a pokemon in their wild . As the teller announced that the anime festival was going to be held only on Kanto , the Madame and Guy agreed to accommodate all wish specific questions if they could . This was and will be the second wish . First , party was a bit more typical . Up until the the cook was out of control , it was hard to help be handed one candy bar . If he was doing his task , the Ambush would pop in with a silent roar . Both madame and the cook had already started pouring drinks , as not that would be a life saving thing . But just as everyone was packing in their drinks and handed out their wishes , the Catigan , though it was to be a rare occasion , decided it was time for a dance in the front of the house , as any magic master would . And so the town tried to woo this man for a drink . Then they laughed and told jokes . But then as they drank , the bartender told them not to and he spoke of `` the blue plume '' and `` run away with it '' . Next , with a few of them left drunk , the bartender was a little drunk . The cook and the chef had given him a dose of ginger Ale .
+Stars: 4.2
+(End of examples)
+
+The beginning of the story: <S1>
+Storyline: <generated Story>
+Stars:

@@ -1,0 +1,22 @@
+Score the following storyline given the beginning of the story with one to five stars.
+Where one star means "Nonsense",
+two stars mean "The storyline has some connections with the beginning, but is not understandable",
+three stars mean "The storyline has some causal connections with the beginning and is understandable",
+four stars mean "The storyline is causally consistent with the beginning and possibly involves a few grammar mistakes",
+and five stars mean "Perfect storyline with causal connections and perfect grammar".
+
+Here are two examples:
+Example1:
+The beginning of the story: i was sitting on the bench today. 
+Storyline: i heard my neighbor 's dogs barking. i looked at his dog and realized it was a Monday. the monday still runs through monday. i called my neighbor to let her know how i felt.
+Stars: 1.4
+
+Example2:
+The beginning of the story: [FEMALE] is an actress who just turned 19. 
+Storyline: she had a bad acting performance in an upcoming movie. she was disappointed.  then, she decided to try something different. she filmed herself playing in her very own version.
+Stars: 5
+(End of examples)
+
+The beginning of the story: <S1>
+Storyline: <generated Story>
+Stars:
