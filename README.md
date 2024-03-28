@@ -33,8 +33,13 @@ The COPES dataset can be downloaded from: https://github.com/HKUST-KnowComp/COLA
 The GLUCOSE dataset can be downloaded from: https://github.com/ElementalCognition/glucose
 
 ### Downstream Tasks:
+#### Story Evaluation
+The dataset has been downloaded and save in the story_eval/datasets/ folder
+#### Video-Text Alignment
 To be filled
 
+## Prompt
+The prompt for event causality extraction is stored in prompt.txt
 
 ## Run event causality extraction on COPES:
 The code is in COPES/event_causality_extraction_copes.py
@@ -48,5 +53,14 @@ The code is in GLUCOSE/event_causality_extraction_glucose.py
 event_causality_extraction_glucose.py --save_dict {output file} --input_data {path to input data file} --prompt {path to prompt}
 ```
 
-## Prompt
-The prompt for event causality extraction is stored in prompt.txt
+## Run event causality extraction on OpenMEVA datasets
+The code is in story_eval/event_causality_extraction_OpenMEVA.py
+```
+event_causality_extraction_OpenMEVA.py --
+```
+
+## Run story evaluation experiments on OpenMEVA datasets
+The code is in story_eval/OpenAI_API_score.py
+```
+OpenAI_API_score.py --prompt_type orig -d ROC --seed 2 --gpt_model gpt4
+```
