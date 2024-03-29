@@ -38,7 +38,7 @@ def before_retry_fn(retry_state):
 
 @retry(wait=wait_fixed(5)+ wait_random(0, 5),stop=stop_after_attempt(6), before=before_retry_fn)
 def completion_with_backoff(**kwargs):
-    key_list=["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"]
+    key_list=["sk-"]
     client = OpenAI(api_key = random.choice(key_list))
     return client.chat.completions.create(**kwargs)
 
