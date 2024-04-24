@@ -69,13 +69,13 @@ OpenAI_API_score.py --prompt_type orig -d ROC --seed 2 --gpt_model gpt4
 If you find our paper is useful for your research and applications, please cite using this BibTeX:
 
 ```
-@article{Sun2023EventCI,
+@inproceedings{Sun2023EventCI,
   title={Event Causality Is Key to Computational Story Understanding},
   author={Yidan Sun and Qin Chao and Boyang Albert Li},
-  journal={ArXiv},
-  year={2023},
+  booktitle={North American Chapter of the Association for Computational Linguistics},
+  year={2024},
   volume={abs/2311.09648},
-  url={https://api.semanticscholar.org/CorpusID:265221056}
+  url={https://arxiv.org/abs/2311.09648}
 }
 
 ```
