@@ -56,7 +56,7 @@ event_causality_extraction_glucose.py --save_dict {output file} --input_data {pa
 ## Run event causality extraction on OpenMEVA datasets
 The code is in story_eval/event_causality_extraction_OpenMEVA.py
 ```
-event_causality_extraction_OpenMEVA.py --
+OpenAI_API_OpenMEVA_EN.py -d ROC --seed 2 --gpt_model gpt4
 ```
 
 ## Run story evaluation experiments on OpenMEVA datasets
