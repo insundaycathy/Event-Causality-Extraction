@@ -72,7 +72,7 @@ If you find our paper is useful for your research and applications, please cite 
 @inproceedings{Sun2023EventCI,
   title={Event Causality Is Key to Computational Story Understanding},
   author={Yidan Sun and Qin Chao and Boyang Albert Li},
-  booktitle={North American Chapter of the Association for Computational Linguistics},
+  booktitle={Annual Conference of the North American Chapter of the Association for Computational Linguistics},
   year={2024},
   volume={abs/2311.09648},
   url={https://arxiv.org/abs/2311.09648}
