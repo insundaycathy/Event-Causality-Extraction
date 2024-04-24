@@ -64,7 +64,7 @@ def get_completion(prompt, args):
 
 def main(args):
 
-    with open('prompts/EN_'+args.OpenMEVA_dataset+'.txt', 'r') as f :
+    with open('prompts/EN_generate/'+args.OpenMEVA_dataset+'.txt', 'r') as f :
         Demo = f.read()
     
     story_dict = np.load(args.data_path, allow_pickle=True).item()
