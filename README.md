@@ -64,3 +64,19 @@ The code is in story_eval/OpenAI_API_score.py
 ```
 OpenAI_API_score.py --prompt_type orig -d ROC --seed 2 --gpt_model gpt4
 ```
+
+## Citation
+```
+@article{Sun2023EventCI,
+  title={Event Causality Is Key to Computational Story Understanding},
+  author={Yidan Sun and Qin Chao and Boyang Albert Li},
+  journal={ArXiv},
+  year={2023},
+  volume={abs/2311.09648},
+  url={https://api.semanticscholar.org/CorpusID:265221056}
+}
+
+```
+
+
+
