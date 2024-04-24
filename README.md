@@ -66,6 +66,8 @@ OpenAI_API_score.py --prompt_type orig -d ROC --seed 2 --gpt_model gpt4
 ```
 
 ## Citation
+If you find our paper is useful for your research and applications, please cite using this BibTeX:
+
 ```
 @article{Sun2023EventCI,
   title={Event Causality Is Key to Computational Story Understanding},
