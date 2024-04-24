@@ -1,0 +1,88 @@
+Here is a list of nodes(events) from a story event graph. We want you to fill in the edges of the event graph with causal connections bettwen nodes. An event graph contains nodes and edges. Each node represents an event, and each edge represents the causal connection between two events. 
+
+Example Input:
+Node 0: When Dan goes to school in the morning, he has to take the bus.
+Node 1: One day Dan was running late, and missed the bus to school.
+Node 2: Dan called his friend Pete, and asked for a ride to school.
+Node 3: Pete gave Dan a ride to school, but Dan was late to his first class.
+Node 4: Luckily Dan wasn't late to any of his other classes that day.
+Example Output:
+Edge 0: (Node 0 -> Node 1)
+Edge 1: (Node 1 -> Node 2)
+Edge 2: (Node 2 -> Node 3)
+Edge 3: (Node 1 -> Node 3) 
+Edge 4: (Node 3 -> Node 4)
+
+Example Input:
+Node 0: Alice was a sweet girl, but she was also very sneaky.
+Node 1: When she thought her teacher wasn't paying attention, she would be bad
+Node 2: She would say bad words and tell other kids bad things.
+Node 3: One day her teacher talked to her about the right thing to do.
+Node 4: From then on, Alice decided to be a good student.
+Example Output:
+Edge 0: (Node 0 -> Node 1)
+Edge 1: (Node 1 -> Node 2)
+Edge 2: (Node 2 -> Node 3)
+Edge 3: (Node 2 -> Node 4) 
+Edge 4: (Node 3 -> Node 4) 
+
+Example Input:
+Node 0: Gina needed to get out of traffic.
+Node 1: She spotted a side street she could turn down.
+Node 2: But the side street was still 5 cars up.
+Node 3: Gina had to wait for her chance to turn off the street.
+Node 4: The only question was to take a left, or a right.
+Example Output:
+Edge 0: (Node 0 -> Node 1) 
+Edge 1: (Node 0 -> Node 3)
+Edge 2: (Node 2 -> Node 3) 
+Edge 3: (Node 3 -> Node 4)
+
+
+Example Input:
+Node 0: I went to a gas station to get some gas for my car.
+Node 1: Inside, there were machines for coffee.
+Node 2: I had to choose between iced and hot coffee.
+Node 3: I then decided to get cold coffee.
+Node 4: Finally, I sipped my coffee on the drive home.
+Example Output:
+Edge 0: (Node 0 -> Node 1)
+Edge 1: (Node 1 -> Node 2)
+Edge 2: (Node 2 -> Node 3) 
+Edge 3: (Node 3 -> Node 4)
+Edge 4: (Node 0 -> Node 4)
+
+Example Input :
+Node 0: it was bedtime at our house.
+Node 1: two of the three kids hit the pillow and fall asleep.
+Node 2: the third is a trouble maker.
+Node 3: for two hours he continues to get out of bed and want to play.
+Node 4: finally he becomes tired and falls asleep.
+Example Output :
+Edge 0: (Node 3 -> Node 4)
+Edge 1: (Node 4 -> Node 2)
+Edge 2: (Node 2 -> Node 3)
+Edge 3: (Node 2 -> Node 1)
+Edge 4: (Node 0 -> Node 4)
+
+Example Input:
+Node 0: my daughter had to do a science project.
+Node 1: so she wanted to use me for a example.
+Node 2: so she gave me a piece of gum and 21 math problems, i got 1 wrong
+Node 3: she told me to spit out the gum, gave  21 math problems, i got 4 wrong
+Node 4: so chewing gum can help with your concentration after all.
+Example Output:
+Edge 0: (Node 0 -> Node 2)
+Edge 1: (Node 2 -> Node 3)
+Edge 2: (Node 0 -> Node 3)
+Edge 3: (Node 3 -> Node 4)
+Edge 4: (Node 0 -> Node 1)
+Edge 5: (Node 1 -> Node 2)
+(End of examples )
+
+Now, it is your turn to construct the event graph for the following event list.
+Event List:
+<Nodes>
+
+Output:
+
